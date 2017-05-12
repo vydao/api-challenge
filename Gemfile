@@ -24,5 +24,6 @@ group :development do
   gem 'spring'
   gem 'better_errors'
   gem 'pry-rails'
+  gem 'httparty'
 end
 
