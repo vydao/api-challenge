@@ -24,6 +24,9 @@ group :development do
   gem 'spring'
   gem 'better_errors'
   gem 'pry-rails'
-  gem 'httparty'
 end
 
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails', '~> 4.0'
+end
