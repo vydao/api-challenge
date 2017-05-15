@@ -16,11 +16,6 @@ module Api
         end
       end
 
-      def total
-        total_amount = Expense.total_by_category(params[:category_name])
-        render json: total_amount, status: 200
-      end
-
       private
 
       def expense_params
