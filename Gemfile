@@ -12,6 +12,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'responders', '~> 2.0'
+gem "nokogiri", ">= 1.10.4"
+gem "activejob", ">= 4.2.11"
+gem "rack", ">= 1.6.11"
 
 group :development, :test do
   gem 'byebug'
