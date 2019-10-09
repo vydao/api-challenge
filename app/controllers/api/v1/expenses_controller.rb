@@ -27,7 +27,9 @@ module Api
           :description,
           :pre_tax_amount,
           :tax_name,
-          :tax_amount
+          :tax_amount,
+          :company_id,
+          :allow_pay
         )
       end
 
